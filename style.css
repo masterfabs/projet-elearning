@@ -1,0 +1,60 @@
+:root{
+    -primary:#06bbcc;
+    -light: #F0FBFC;
+    -dark: #181d38;
+}
+
+.navbar-link{
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #181d38;
+    font-size: 15px;
+    text-transform: capitalize; 
+    text-decoration: none;
+}
+
+.title{
+ color: #06bbcc ;
+ font-size: 20px;
+}
+
+.ti{
+    background-color:  #F0FBFC;
+    border: none;
+}
+.ti:hover{
+    background-color: #06bbcc;
+}
+.about{
+    color:#06bbcc; ;
+}
+
+.fin{
+    border: 1px;
+}
+
+.ts{
+    background-color:#f5fcfd;
+}
+
+.testimonial-carousel .owl-dots{
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot{
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #cccccc;
+}
+
+.testimonial-carousel .owl-dot .active{
+    background: var(--primary);
+    border-color: var(--primary);
+}
